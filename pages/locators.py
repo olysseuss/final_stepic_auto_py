@@ -14,3 +14,4 @@ class ProductPageLocators():
     ADD_TO_CART_NAME_BOOK = (By.CSS_SELECTOR, '.alertinner strong')
     BOOK_PRICE = (By.CSS_SELECTOR, 'p.price_color')
     BOOK_PRICE_IN_THE_CART = (By.CSS_SELECTOR, 'div.basket-mini.pull-right.hidden-xs')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alert-success')
