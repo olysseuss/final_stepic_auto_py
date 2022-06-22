@@ -33,12 +33,12 @@ def test_guest_can_add_product_to_basket(browser, link):
     page.check_book_price_in_the_cart()
 
 
-# def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
-#     link = "http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/"
-#     page = ProductPage(browser,link)
-#     page.open()
-#     page.add_to_cart()
-#     page.should_not_be_success_message()
+def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
+    link = "http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/"
+    page = ProductPage(browser,link)
+    page.open()
+    page.add_to_cart()
+    page.should_not_be_success_message()
 #
 #
 # def test_guest_cant_see_success_message(browser):
